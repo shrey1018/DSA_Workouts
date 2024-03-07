@@ -1,0 +1,24 @@
+# Ignore object files
+*.o
+
+# Ignore compiled files
+*.out
+*.exe
+*.dll
+
+# Ignore dependency files
+*.d
+
+# Ignore dynamic libraries
+*.so
+
+# Ignore static libraries
+*.lib
+*.a
+
+# Ignore directories
+build/
+bin/
+
+*.DS_Store
+.vscode/
