@@ -9,7 +9,7 @@ int main(){
 
 cout<<"pairs are :"<<endl;
 
-//iterating over array 
+//here we have to iterate over arr using two var so two pairs will be formed
  for(int i=0;i<n;i++){
     for(int j=0;j<n;j++){
         cout<<arr[i]<<" ,"<<arr[j]<<endl;
