@@ -2,6 +2,8 @@
 using namespace std;
 
 int getAns(int arr[],int n){
+        //if a num is xor with 0 then the result is that num thats why num is initialized with 0
+
 int num=0;
 for(int i=0;i<n;i++){
     num = num^arr[i];
@@ -16,4 +18,9 @@ int main(){
 
     int answer = getAns(arr,n);
     cout<<"single occurance num is :"<<answer;
+
 }
+// a num xor with itself gives 0 
+
+
+//The XOR operation is both associative and commutative, which means the order of the numbers does not affect the result.
