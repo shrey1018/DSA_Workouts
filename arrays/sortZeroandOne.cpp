@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//question is to sort numbers zeros should be at start and ones at end
 void sortZeroOne(int arr[],int n){
     int countZero = 0;
 
