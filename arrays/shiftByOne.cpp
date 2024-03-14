@@ -25,3 +25,5 @@ int main(){
     }
 
 }
+
+//if here we have started from start till end then the arr[i+1]=arr[i] then the whole arr will have same number coz it will copy the same value
