@@ -1,11 +1,11 @@
-// shift right in pair of two ele
+// que is to shift right in pair of two ele
 
 #include<iostream>
 using namespace std;
 
 
 void shiftByTwo(int arr[], int n, int k){
-    // Storing end pair to replace at end of program with start elements
+    // Storing end pair to replace at end of program with start elements 
     int temp[] = {arr[n-2], arr[n-1]};
 
     // Shifting elements to the right by two positions
